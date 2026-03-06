@@ -1,1 +1,72 @@
 @import url(global.css);
+
+:root {
+  --white: #FFFFFF;
+  --black: #23272A;
+}
+
+/* ===== HERO ===== */
+
+.hero {
+    background-image: url(../images/hero-banner.png);
+    background-size: cover;
+    background-position: center;
+    height: 550px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-content { 
+    text-align: center;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.hero-main-text {
+    width: 350px;
+    margin: 0;
+    color: var(--white);
+    font-family: Luckiest Guy, sans-serif;
+    font-weight: 400;
+    font-size: 3.5rem;
+    text-transform: uppercase;
+}
+
+.hero-text {
+    width: 750px;
+    color: var(--white);
+    font-weight: 400;
+    font-size: 1rem;
+    margin: 0;
+}
+
+.hero-buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+}
+
+.hero-white-btn {
+    color: var(--black);
+    padding: 10px 22px;
+    text-decoration: none;
+    border-radius: 25px;
+    background-color: var(--white);
+}
+
+.hero-black-btn {
+    color: var(--white);
+    padding: 10px 22px;
+    text-decoration: none;
+    border-radius: 25px;
+    background-color: var(--black);
+}
+
+/* ===== SECTION 2 ===== */
