@@ -1,4 +1,4 @@
-# YouTube Clone (Static Front-End)
+# Discord Landing Page Clone (Static Front-End)
 
 ### Intro
 
